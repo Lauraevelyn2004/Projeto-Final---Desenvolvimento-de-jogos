@@ -1,8 +1,8 @@
-Button
 ColorRect
+Label
+Button
 TextureRect
 Popup
-Label
 Node2D
 TextEdit
 CollisionShape2D

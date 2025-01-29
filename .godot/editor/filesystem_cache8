@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737829991
+::res://::1738181194
 ::res://assets/::1737536362
 ::res://assets/assets/::1737536362
 ::res://assets/assets/designer/::1737816147
@@ -36,7 +36,7 @@ Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D::659885938
 Speech_Emotes (16 x 16).png::CompressedTexture2D::3039672169333544742::1737536362::1737816147::1::::<><>::
 Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::7111269577704555392::1737536362::1737816147::1::::<><>::
 Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::1328826783055072621::1737536362::1737816147::1::::<><>::
-::res://assets/controles/::1737829991
+::res://assets/controles/::1737829992
 baixo.png::CompressedTexture2D::5400238552600911635::1737536362::1737816147::1::::<><>::
 botao_a.png::CompressedTexture2D::5481068585101380020::1737536362::1737816147::1::::<><>::
 botao_b.png::CompressedTexture2D::2606142223187497172::1737536362::1737816147::1::::<><>::
@@ -54,8 +54,7 @@ onscreencontrols.png::CompressedTexture2D::8878886836574524057::1737536362::1737
 play.jpg::CompressedTexture2D::8842239293266147934::1737536362::1737816146::1::::<><>::
 setas.jpg::CompressedTexture2D::3090669918059065224::1737536362::1737816146::1::::<><>::
 store.jpg::CompressedTexture2D::7806227208032202105::1737536362::1737816146::1::::<><>::
-::res://assets/personagens/::1737827141
-Captura de tela 2025-01-25 144501.png::CompressedTexture2D::5803823119075901303::1737827141::1737827141::1::::<><>::
+::res://assets/personagens/::1738181165
 ::res://assets/personagens/chop/::1737816146
 Captura de tela 2024-12-20 112932.png::CompressedTexture2D::1680561844531052387::1737536362::1737816146::1::::<><>::
 chop.png::CompressedTexture2D::6637096439401182371::1737536362::1737816146::1::::<><>::
@@ -67,7 +66,8 @@ chop_morrendo.png::CompressedTexture2D::5063504207898094247::1737536362::1737816
 chop_piscando.png::CompressedTexture2D::4839515090455075525::1737536362::1737816144::1::::<><>::
 chop_pulando.png::CompressedTexture2D::3879880940695200072::1737536362::1737816144::1::::<><>::
 file (2).png::CompressedTexture2D::8446892804914456591::1737536362::1737816145::1::::<><>::
-::res://assets/personagens/fundo/::1737821584
+::res://assets/personagens/fundo/::1738181165
+Captura de tela 2025-01-25 144501.png::CompressedTexture2D::5803823119075901303::1737827141::1738181165::1::::<><>::
 floresta azul.jpg::CompressedTexture2D::6804944666584934280::1737536362::1737816144::1::::<><>::
 floresta.jpg::CompressedTexture2D::6250534625403941350::1737536362::1737816144::1::::<><>::
 fundo amarelo.png::CompressedTexture2D::1160231116358110130::1737536362::1737816144::1::::<><>::
@@ -112,66 +112,68 @@ frame-6.png::CompressedTexture2D::1502669697027559009::1737536362::1737816144::1
 frame-7.png::CompressedTexture2D::500788189460017766::1737536362::1737816144::1::::<><>::
 frame-8.png::CompressedTexture2D::6481264247244356207::1737536362::1737816144::1::::<><>::
 frame-9.png::CompressedTexture2D::3586468772256040783::1737536362::1737816144::1::::<><>::
-::res://cenarios/::1737829991
-hud_2.tscn::PackedScene::4113572688587504658::1737829692::0::1::::<><>::res://scripts/outros/control.gd<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>res://personagens/skin/voltar.gd<>uid://jyk0u7xgaj6n::::res://assets/controles/cima.png<>uid://bk2ns7jajoii3::::res://assets/controles/direita.png<>uid://dwmos5kid0m1u::::res://assets/controles/esquerda.png
-hud_3.tscn::PackedScene::353782393309236210::1737829693::0::1::::<><>::res://scripts/outros/control.gd<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>res://personagens/skin/voltar.gd<>uid://jyk0u7xgaj6n::::res://assets/controles/cima.png<>uid://bk2ns7jajoii3::::res://assets/controles/direita.png<>uid://dwmos5kid0m1u::::res://assets/controles/esquerda.png
-moedasinsuficientes.tscn::PackedScene::7748522315661904393::1737829693::0::1::::<><>::uid://dkphwc1wpnrmu::::res://assets/controles/moedas insuficientes.png
-::res://levels/::1737829692
-fase_01.tscn::PackedScene::7218332161525457743::1737829689::0::1::::<><>::uid://c3ydvvdkdqakn::::res://personagens/hud.tscn<>res://scripts/fases/fase_01.gd<>uid://7ju4bfogam24::::res://assets/personagens/fundo/fundo floresta.jpg<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>res://scripts/outros/portal.gd<>res://personagens/skin/voltar.gd
-fase_02.tscn::PackedScene::6705149257607100909::1737829690::0::1::::<><>::res://scripts/fases/fase_02.gd<>uid://c3ydvvdkdqakn::::res://personagens/hud.tscn<>res://personagens/skin/voltar.gd<>uid://1c1kdcl8p2b6::::res://assets/personagens/fundo/fundo floresta green.jpg<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn
-fase_03.tscn::PackedScene::1523838561887980219::1737829690::0::1::::<><>::res://scripts/fases/fase_03.gd<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>res://personagens/skin/voltar.gd<>uid://byuv7aafpd8g1::::res://cenarios/hud_2.tscn<>uid://bi6i4o5jsswdw::::res://assets/personagens/fundo/fundo floresta pink.jpg<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn
-fase_04.tscn::PackedScene::1700371587432431162::1737829691::0::1::::<><>::res://scripts/fases/fase_04.gd<>res://personagens/skin/voltar.gd<>uid://3cr7e2pybnxq::::res://assets/personagens/fundo/fundo preto e branco.png<>uid://c3ydvvdkdqakn::::res://personagens/hud.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn
-fase_05.tscn::PackedScene::8896322693269974310::1737829691::0::1::::<><>::res://scripts/fases/fase_05.gd<>res://personagens/skin/voltar.gd<>uid://qsa3pspgw30a::::res://assets/personagens/fundo/fundo amarelo.png<>uid://fbm0kpemvusw::::res://cenarios/hud_3.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn
-fase_06.tscn::PackedScene::7283425064763509449::1737829692::0::1::::<><>::res://scripts/fases/fase_06.gd<>res://personagens/skin/voltar.gd<>uid://b8l28dp13l2hx::::res://assets/personagens/fundo/fundo vermelho.png<>uid://fbm0kpemvusw::::res://cenarios/hud_3.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn<>res://scripts/outros/portal.gd
-fim.tscn::PackedScene::7541649994917014603::1737829692::0::1::::<><>::uid://ddjf27y2h0c1p::::res://assets/personagens/fundo/fundo fim.png<>res://personagens/skin/voltar.gd
-::res://personagens/::1737829692
+::res://cenarios/::1738181151
+hud_2.tscn::PackedScene::4113572688587504658::1738180690::0::1::::<><>::res://scripts/outros/control.gd<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>res://personagens/skin/voltar.gd<>uid://jyk0u7xgaj6n::::res://assets/controles/cima.png<>uid://bk2ns7jajoii3::::res://assets/controles/direita.png<>uid://dwmos5kid0m1u::::res://assets/controles/esquerda.png
+hud_3.tscn::PackedScene::353782393309236210::1738180690::0::1::::<><>::res://scripts/outros/control.gd<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>res://personagens/skin/voltar.gd<>uid://jyk0u7xgaj6n::::res://assets/controles/cima.png<>uid://bk2ns7jajoii3::::res://assets/controles/direita.png<>uid://dwmos5kid0m1u::::res://assets/controles/esquerda.png
+moedasinsuficientes.tscn::PackedScene::7748522315661904393::1738181197::0::1::::<><>::uid://dtcred3c6x8o5::::res://assets/controles/moedinhas.png<>res://scripts/recomeçar.gd
+::res://levels/::1738180690
+fase_01.tscn::PackedScene::7218332161525457743::1738180686::0::1::::<><>::uid://c3ydvvdkdqakn::::res://personagens/hud.tscn<>res://scripts/fases/fase_01.gd<>uid://7ju4bfogam24::::res://assets/personagens/fundo/fundo floresta.jpg<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>res://scripts/outros/portal.gd<>res://personagens/skin/voltar.gd
+fase_02.tscn::PackedScene::6705149257607100909::1738180687::0::1::::<><>::res://scripts/fases/fase_02.gd<>uid://c3ydvvdkdqakn::::res://personagens/hud.tscn<>res://personagens/skin/voltar.gd<>uid://1c1kdcl8p2b6::::res://assets/personagens/fundo/fundo floresta green.jpg<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn
+fase_03.tscn::PackedScene::1523838561887980219::1738180688::0::1::::<><>::res://scripts/fases/fase_03.gd<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>res://personagens/skin/voltar.gd<>uid://byuv7aafpd8g1::::res://cenarios/hud_2.tscn<>uid://bi6i4o5jsswdw::::res://assets/personagens/fundo/fundo floresta pink.jpg<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn
+fase_04.tscn::PackedScene::1700371587432431162::1738180688::0::1::::<><>::res://scripts/fases/fase_04.gd<>res://personagens/skin/voltar.gd<>uid://3cr7e2pybnxq::::res://assets/personagens/fundo/fundo preto e branco.png<>uid://byuv7aafpd8g1::::res://cenarios/hud_2.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn
+fase_05.tscn::PackedScene::8896322693269974310::1738180689::0::1::::<><>::res://scripts/fases/fase_05.gd<>uid://qsa3pspgw30a::::res://assets/personagens/fundo/fundo amarelo.png<>uid://fbm0kpemvusw::::res://cenarios/hud_3.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn
+fase_06.tscn::PackedScene::7283425064763509449::1738180689::0::1::::<><>::res://scripts/fases/fase_06.gd<>res://personagens/skin/voltar.gd<>uid://b8l28dp13l2hx::::res://assets/personagens/fundo/fundo vermelho.png<>uid://fbm0kpemvusw::::res://cenarios/hud_3.tscn<>uid://48vicba0jlpy::::res://personagens/moeda.tscn<>uid://i1xwkqapfabe::::res://personagens/inimigo.tscn<>uid://dit3bwg0gyvob::::res://personagens/portal.tscn<>res://scripts/outros/portal.gd
+fim.tscn::PackedScene::7541649994917014603::1738180690::0::1::::<><>::uid://ddjf27y2h0c1p::::res://assets/personagens/fundo/fundo fim.png<>res://personagens/skin/voltar.gd
+::res://personagens/::1738181072
 dano_inimigo.tscn::PackedScene::5058072409701274514::1737536362::0::1::::<><>::res://scripts/personagens/inimigo/dano_inimigo.gd
-escolha_fases.tscn::PackedScene::7840742035071562184::1737829687::0::1::::<><>::uid://dqbpspuf4onrj::::res://assets/assets/designer/Designer (5).jpeg<>res://scripts/escolha de fase/button_1.gd<>res://scripts/escolha de fase/button_2.gd<>res://scripts/escolha de fase/button_3.gd<>res://scripts/escolha de fase/button_4.gd<>res://scripts/escolha de fase/button_5.gd<>res://scripts/escolha de fase/button_6.gd<>uid://7ju4bfogam24::::res://assets/personagens/fundo/fundo floresta.jpg<>uid://1c1kdcl8p2b6::::res://assets/personagens/fundo/fundo floresta green.jpg<>uid://bi6i4o5jsswdw::::res://assets/personagens/fundo/fundo floresta pink.jpg<>uid://3cr7e2pybnxq::::res://assets/personagens/fundo/fundo preto e branco.png<>uid://qsa3pspgw30a::::res://assets/personagens/fundo/fundo amarelo.png<>uid://bmch3wxdfkkhq::::res://assets/personagens/fundo/fundo hell.png<>res://personagens/skin/voltar.gd
-hud.tscn::PackedScene::6787894816082604433::1737829692::0::1::::<><>::res://scripts/outros/control.gd<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>uid://jyk0u7xgaj6n::::res://assets/controles/cima.png<>res://personagens/skin/voltar.gd<>uid://bk2ns7jajoii3::::res://assets/controles/direita.png<>uid://dwmos5kid0m1u::::res://assets/controles/esquerda.png
-inimigo.tscn::PackedScene::616620898979963326::1737829692::0::1::::<><>::res://scripts/personagens/inimigo/inimigo.gd<>uid://cv63p7gnrt63c::::res://assets/personagens/inimigo/vila.png<>uid://cecfyi6ds45so::::res://personagens/dano_inimigo.tscn
-jogador.tscn::PackedScene::5059006875692535::1737829692::0::1::::<><>::res://scripts/personagens/jogador.gd<>uid://3ao3cr1nfkul::::res://assets/personagens/chop/chop_correndoo.png<>uid://b7n2q5avncsfs::::res://assets/personagens/chop/chop_andando.png<>uid://dsl0dcqya03rv::::res://assets/personagens/chop/file (2).png
-menu.tscn::PackedScene::7115822594169138632::1737829686::0::1::::<><>::uid://dbcqmet4aylts::::res://assets/assets/designer/Designer (4).jpeg<>uid://dx8inia063p23::::res://assets/controles/play.jpg<>res://scripts/menu/play.gd<>uid://c0670syoia4se::::res://assets/controles/fases.jpg<>res://scripts/escolha de fase/fases.gd
-moeda.tscn::PackedScene::2104890381211526746::1737829692::0::1::::<><>::res://scripts/personagens/moeda.gd<>uid://b3acp4w546syi::::res://assets/assets/Mini FX, Items & UI/Effects/Bright_Sparkle (16 x 16).png<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png
-portal.tscn::PackedScene::7761699005029465201::1737829692::0::1::::<><>::res://scripts/personagens/portal.gd<>uid://j8evjxtny4x5::::res://assets/portal/frame-1.png<>uid://becfjow5vf8ww::::res://assets/portal/frame-2.png<>uid://cb1lxjrcjjad1::::res://assets/portal/frame-3.png<>uid://cp3va4ggq0f8v::::res://assets/portal/frame-4.png<>uid://cxrsv27usgdfe::::res://assets/portal/frame-5.png<>uid://vn50roo1k7qr::::res://assets/portal/frame-6.png<>uid://het55ane85lq::::res://assets/portal/frame-7.png<>uid://cyltqfmlxtb88::::res://assets/portal/frame-8.png<>uid://brdku75mi5ni2::::res://assets/portal/frame-9.png
-::res://personagens/skin/::1737829692
+escolha_fases.tscn::PackedScene::7840742035071562184::1738180685::0::1::::<><>::uid://dqbpspuf4onrj::::res://assets/assets/designer/Designer (5).jpeg<>res://scripts/escolha de fase/button_1.gd<>res://scripts/escolha de fase/button_2.gd<>res://scripts/escolha de fase/button_3.gd<>res://scripts/escolha de fase/button_4.gd<>res://scripts/escolha de fase/button_5.gd<>res://scripts/escolha de fase/button_6.gd<>uid://7ju4bfogam24::::res://assets/personagens/fundo/fundo floresta.jpg<>uid://1c1kdcl8p2b6::::res://assets/personagens/fundo/fundo floresta green.jpg<>uid://bi6i4o5jsswdw::::res://assets/personagens/fundo/fundo floresta pink.jpg<>uid://3cr7e2pybnxq::::res://assets/personagens/fundo/fundo preto e branco.png<>uid://qsa3pspgw30a::::res://assets/personagens/fundo/fundo amarelo.png<>uid://bmch3wxdfkkhq::::res://assets/personagens/fundo/fundo hell.png<>res://personagens/skin/voltar.gd
+hud.tscn::PackedScene::6787894816082604433::1738180689::0::1::::<><>::res://scripts/outros/control.gd<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png<>uid://jyk0u7xgaj6n::::res://assets/controles/cima.png<>res://personagens/skin/voltar.gd<>uid://bk2ns7jajoii3::::res://assets/controles/direita.png<>uid://dwmos5kid0m1u::::res://assets/controles/esquerda.png
+inimigo.tscn::PackedScene::616620898979963326::1738180689::0::1::::<><>::res://scripts/personagens/inimigo/inimigo.gd<>uid://cv63p7gnrt63c::::res://assets/personagens/inimigo/vila.png<>uid://cecfyi6ds45so::::res://personagens/dano_inimigo.tscn
+jogador.tscn::PackedScene::5059006875692535::1738180689::0::1::::<><>::res://scripts/personagens/jogador.gd<>uid://3ao3cr1nfkul::::res://assets/personagens/chop/chop_correndoo.png<>uid://b7n2q5avncsfs::::res://assets/personagens/chop/chop_andando.png<>uid://dsl0dcqya03rv::::res://assets/personagens/chop/file (2).png
+menu.tscn::PackedScene::7115822594169138632::1738180684::0::1::::<><>::uid://dbcqmet4aylts::::res://assets/assets/designer/Designer (4).jpeg<>uid://dx8inia063p23::::res://assets/controles/play.jpg<>res://scripts/menu/play.gd<>uid://c0670syoia4se::::res://assets/controles/fases.jpg<>res://scripts/escolha de fase/fases.gd
+moeda.tscn::PackedScene::2104890381211526746::1738180690::0::1::::<><>::res://scripts/personagens/moeda.gd<>uid://b3acp4w546syi::::res://assets/assets/Mini FX, Items & UI/Effects/Bright_Sparkle (16 x 16).png<>uid://dudh8d0sfmgkv::::res://assets/assets/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png
+portal.tscn::PackedScene::7761699005029465201::1738180690::0::1::::<><>::res://scripts/personagens/portal.gd<>uid://j8evjxtny4x5::::res://assets/portal/frame-1.png<>uid://becfjow5vf8ww::::res://assets/portal/frame-2.png<>uid://cb1lxjrcjjad1::::res://assets/portal/frame-3.png<>uid://cp3va4ggq0f8v::::res://assets/portal/frame-4.png<>uid://cxrsv27usgdfe::::res://assets/portal/frame-5.png<>uid://vn50roo1k7qr::::res://assets/portal/frame-6.png<>uid://het55ane85lq::::res://assets/portal/frame-7.png<>uid://cyltqfmlxtb88::::res://assets/portal/frame-8.png<>uid://brdku75mi5ni2::::res://assets/portal/frame-9.png
+::res://personagens/skin/::1738180690
 equipar_1.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
 equipar_2.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
 jogador.gd::GDScript::-1::1737536362::0::1::::<>CharacterBody2D<>::
 loja.gd::GDScript::-1::1737536362::0::1::::<>Node2D<>::
-loja.tscn::PackedScene::2675825889046874680::1737829687::0::1::::<><>::uid://cslakt0jsbpmc::::res://assets/assets/designer/Designer (20).jpeg<>res://personagens/skin/loja.gd<>uid://dwgl17w83wb0u::::res://assets/assets/designer/Captura de tela 2024-12-16 104105.png<>uid://ei2f5iqc2xu5::::res://assets/assets/designer/Captura de tela 2024-12-16 103840.png<>uid://x7cuw5weadct::::res://assets/personagens/chop/Captura de tela 2024-12-20 112932.png<>res://personagens/skin/equipar_1.gd<>res://personagens/skin/equipar_2.gd<>res://personagens/skin/play.gd<>res://personagens/skin/voltar.gd
+loja.tscn::PackedScene::2675825889046874680::1738180684::0::1::::<><>::uid://cslakt0jsbpmc::::res://assets/assets/designer/Designer (20).jpeg<>res://personagens/skin/loja.gd<>uid://dwgl17w83wb0u::::res://assets/assets/designer/Captura de tela 2024-12-16 104105.png<>uid://ei2f5iqc2xu5::::res://assets/assets/designer/Captura de tela 2024-12-16 103840.png<>uid://x7cuw5weadct::::res://assets/personagens/chop/Captura de tela 2024-12-20 112932.png<>res://personagens/skin/equipar_1.gd<>res://personagens/skin/equipar_2.gd<>res://personagens/skin/play.gd<>res://personagens/skin/voltar.gd
 play.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-skin_01.tscn::PackedScene::5967417149125349168::1737829692::0::1::::<><>::res://personagens/skin/jogador.gd<>uid://cmaigvp7cj5ve::::res://assets/personagens/skins chop/skin_glith.png
-voltar.gd::GDScript::-1::1737817061::0::1::::<>Button<>::
-::res://scripts/::1737536362
-::res://scripts/escolha de fase/::1737829365
-button_1.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-button_2.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-button_3.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-button_4.gd::GDScript::-1::1737816538::0::1::::<>Button<>::
-button_5.gd::GDScript::-1::1737816538::0::1::::<>Button<>::
-button_6.gd::GDScript::-1::1737816538::0::1::::<>Button<>::
+skin_01.tscn::PackedScene::5967417149125349168::1738180690::0::1::::<><>::res://personagens/skin/jogador.gd<>uid://cmaigvp7cj5ve::::res://assets/personagens/skins chop/skin_glith.png
+voltar.gd::GDScript::-1::1737831275::0::1::::<>Button<>::
+::res://scripts/::1738181194
+recomeçar.gd::GDScript::-1::1737831548::0::1::::<>Button<>::
+::res://scripts/escolha de fase/::1737832008
+button_1.gd::GDScript::-1::1737832007::0::1::::<>Button<>::
+button_2.gd::GDScript::-1::1737832007::0::1::::<>Button<>::
+button_3.gd::GDScript::-1::1737832007::0::1::::<>Button<>::
+button_4.gd::GDScript::-1::1737832007::0::1::::<>Button<>::
+button_5.gd::GDScript::-1::1737832008::0::1::::<>Button<>::
+button_6.gd::GDScript::-1::1737832008::0::1::::<>Button<>::
 fases.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-::res://scripts/fases/::1737829361
-fase_01.gd::GDScript::-1::1737828805::0::1::::<>Node2D<>::
-fase_02.gd::GDScript::-1::1737536362::0::1::::<>Node2D<>::
-fase_03.gd::GDScript::-1::1737536362::0::1::::<>Node2D<>::
-fase_04.gd::GDScript::-1::1737536362::0::1::::<>Node2D<>::
-fase_05.gd::GDScript::-1::1737536362::0::1::::<>Node2D<>::
-fase_06.gd::GDScript::-1::1737536362::0::1::::<>Node2D<>::
+::res://scripts/fases/::1737833857
+fase_01.gd::GDScript::-1::1737831707::0::1::::<>Node2D<>::
+fase_02.gd::GDScript::-1::1737830525::0::1::::<>Node2D<>::
+fase_03.gd::GDScript::-1::1737830525::0::1::::<>Node2D<>::
+fase_04.gd::GDScript::-1::1737830525::0::1::::<>Node2D<>::
+fase_05.gd::GDScript::-1::1737833857::0::1::::<>Node2D<>::
+fase_06.gd::GDScript::-1::1737830525::0::1::::<>Node2D<>::
 moedas_insuficientes.gd::GDScript::-1::1737828805::0::1::::<>Sprite2D<>::
-::res://scripts/menu/::1737536362
-play.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-::res://scripts/outros/::1737829686
+::res://scripts/menu/::1737832127
+play.gd::GDScript::-1::1737832127::0::1::::<>Button<>::
+::res://scripts/outros/::1738181194
+button.gd::GDScript::-1::1737831220::0::1::::<>Button<>::
 camera.gd::GDScript::-1::1737536362::0::1::::<>Camera2D<>::
 camera_2d.gd::GDScript::-1::1737536362::0::1::::<>Camera2D<>::
 control.gd::GDScript::-1::1737536362::0::1::::<>Control<>::
-Global.gd::GDScript::-1::1737536362::0::1::::<>Node<>::
-portal.gd::GDScript::-1::1737829686::0::1::::<>Area2D<>::
+Global.gd::GDScript::-1::1737830890::0::1::::<>Node<>::
+portal.gd::GDScript::-1::1737830890::0::1::::<>Area2D<>::
 store.gd::GDScript::-1::1737536362::0::1::::<>Button<>::
-::res://scripts/personagens/::1737828937
+::res://scripts/personagens/::1737831024
 jogador.gd::GDScript::-1::1737825769::0::1::::<>CharacterBody2D<>::
 moeda.gd::GDScript::-1::1737536362::0::1::::<>Area2D<>::
-portal.gd::GDScript::-1::1737828937::0::1::::<>Area2D<>::
+portal.gd::GDScript::-1::1737831024::0::1::::<>Area2D<>::
 ::res://scripts/personagens/inimigo/::1737536362
 dano_inimigo.gd::GDScript::-1::1737536362::0::1::::<>Area2D<>::
 inimigo.gd::GDScript::-1::1737536362::0::1::::<>CharacterBody2D<>::

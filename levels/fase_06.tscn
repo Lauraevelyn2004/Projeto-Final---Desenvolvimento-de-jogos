@@ -2002,7 +2002,7 @@ position = Vector2(2464, 144)
 position = Vector2(2576, 144)
 
 [node name="moeda20" parent="moedas" instance=ExtResource("4_hfc2w")]
-position = Vector2(2712, 144)
+position = Vector2(2712, 120)
 
 [node name="moeda21" parent="moedas" instance=ExtResource("4_hfc2w")]
 position = Vector2(2936, 144)
@@ -2240,8 +2240,41 @@ position = Vector2(10736, 208)
 [node name="inimigo69" parent="inimigos" instance=ExtResource("5_50cb1")]
 position = Vector2(10888, 208)
 
+[node name="inimigo73" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(22400, 416)
+
 [node name="inimigo70" parent="inimigos" instance=ExtResource("5_50cb1")]
 position = Vector2(11200, 208)
+
+[node name="inimigo74" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(11376, 208)
+
+[node name="inimigo76" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(11712, 208)
+
+[node name="inimigo77" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(11920, 208)
+
+[node name="inimigo78" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(12128, 208)
+
+[node name="inimigo79" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(12752, 200)
+
+[node name="inimigo80" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(12944, 200)
+
+[node name="inimigo81" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(13432, 200)
+
+[node name="inimigo82" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(13848, 144)
+
+[node name="inimigo83" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(14152, 152)
+
+[node name="inimigo75" parent="inimigos" instance=ExtResource("5_50cb1")]
+position = Vector2(11528, 208)
 
 [node name="inimigo71" parent="inimigos" instance=ExtResource("5_50cb1")]
 position = Vector2(11040, 160)

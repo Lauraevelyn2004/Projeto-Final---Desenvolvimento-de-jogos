@@ -1815,10 +1815,10 @@ script = ExtResource("1_xqg36")
 [node name="HUD3" parent="." instance=ExtResource("3_musnw")]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -357.0
-offset_top = -995.0
-offset_right = 6996.0
-offset_bottom = 390.0
+offset_left = -381.0
+offset_top = -771.0
+offset_right = 6972.0
+offset_bottom = 614.0
 color = Color(0.313726, 0.211765, 0, 1)
 
 [node name="FundoAmarelo" type="TextureRect" parent="."]
@@ -1872,7 +1872,7 @@ position = Vector2(1795, 141)
 position = Vector2(2035, 125)
 
 [node name="moeda10" parent="moedas" instance=ExtResource("4_ixnmo")]
-position = Vector2(2267, 125)
+position = Vector2(2267, 109)
 
 [node name="moeda11" parent="moedas" instance=ExtResource("4_ixnmo")]
 position = Vector2(2499, 125)

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coxoebmgeoikt"
-path="res://.godot/imported/Captura de tela 2025-01-25 144501.png-b0afb44873ce2070c26759b80cbfd38f.ctex"
+path="res://.godot/imported/Captura de tela 2025-01-25 144501.png-fc1b8c5e6d4a00e86eb6781ccc7cd971.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/personagens/Captura de tela 2025-01-25 144501.png"
-dest_files=["res://.godot/imported/Captura de tela 2025-01-25 144501.png-b0afb44873ce2070c26759b80cbfd38f.ctex"]
+source_file="res://assets/personagens/fundo/Captura de tela 2025-01-25 144501.png"
+dest_files=["res://.godot/imported/Captura de tela 2025-01-25 144501.png-fc1b8c5e6d4a00e86eb6781ccc7cd971.ctex"]
 
 [params]
 

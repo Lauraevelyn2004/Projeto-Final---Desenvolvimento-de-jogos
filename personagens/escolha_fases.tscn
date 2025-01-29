@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://djyd41nkfkbiu"]
+[gd_scene load_steps=18 format=3 uid="uid://djyd41nkfkbiu"]
 
 [ext_resource type="Texture2D" uid="uid://dqbpspuf4onrj" path="res://assets/assets/designer/Designer (5).jpeg" id="1_3w5x6"]
 [ext_resource type="Script" path="res://scripts/escolha de fase/button_1.gd" id="2_nekbo"]
@@ -17,6 +17,12 @@
 
 [sub_resource type="SystemFont" id="SystemFont_gpr7o"]
 
+[sub_resource type="SystemFont" id="SystemFont_03r53"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fbclm"]
+font = SubResource("SystemFont_03r53")
+font_size = 22
+
 [node name="Node2D" type="Node2D"]
 
 [node name="Designer(5)" type="Sprite2D" parent="."]
@@ -25,16 +31,16 @@ scale = Vector2(0.357701, 0.310547)
 texture = ExtResource("1_3w5x6")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_top = 112.0
+offset_top = 124.0
 offset_right = 642.0
-offset_bottom = 256.0
+offset_bottom = 268.0
 color = Color(0.901961, 0.964706, 0.976471, 0.588235)
 
 [node name="Button1" type="Button" parent="."]
-offset_left = 16.0
-offset_top = 216.0
-offset_right = 104.0
-offset_bottom = 247.0
+offset_left = 20.0
+offset_top = 227.0
+offset_right = 110.0
+offset_bottom = 258.0
 size_flags_stretch_ratio = 0.0
 theme_override_colors/font_disabled_color = Color(1, 0.994191, 0.993187, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -58,10 +64,10 @@ text = "1"
 script = ExtResource("2_nekbo")
 
 [node name="Button2" type="Button" parent="."]
-offset_left = 120.0
-offset_top = 216.0
-offset_right = 205.0
-offset_bottom = 247.0
+offset_left = 116.0
+offset_top = 227.0
+offset_right = 206.0
+offset_bottom = 258.0
 size_flags_stretch_ratio = 0.0
 theme_override_colors/font_disabled_color = Color(1, 0.994191, 0.993187, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -85,10 +91,10 @@ text = "2"
 script = ExtResource("3_oqelp")
 
 [node name="Button3" type="Button" parent="."]
-offset_left = 224.0
-offset_top = 216.0
-offset_right = 309.0
-offset_bottom = 247.0
+offset_left = 225.0
+offset_top = 226.0
+offset_right = 314.0
+offset_bottom = 257.0
 size_flags_stretch_ratio = 0.0
 theme_override_colors/font_disabled_color = Color(1, 0.994191, 0.993187, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -112,10 +118,10 @@ text = "3"
 script = ExtResource("4_d2iyd")
 
 [node name="Button4" type="Button" parent="."]
-offset_left = 328.0
-offset_top = 216.0
+offset_left = 325.0
+offset_top = 227.0
 offset_right = 413.0
-offset_bottom = 247.0
+offset_bottom = 258.0
 size_flags_stretch_ratio = 0.0
 theme_override_colors/font_disabled_color = Color(1, 0.994191, 0.993187, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -139,10 +145,10 @@ text = "4"
 script = ExtResource("5_s4n64")
 
 [node name="Button5" type="Button" parent="."]
-offset_left = 432.0
-offset_top = 216.0
-offset_right = 517.0
-offset_bottom = 247.0
+offset_left = 437.0
+offset_top = 227.0
+offset_right = 525.0
+offset_bottom = 258.0
 size_flags_stretch_ratio = 0.0
 theme_override_colors/font_disabled_color = Color(1, 0.994191, 0.993187, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -166,10 +172,10 @@ text = "5"
 script = ExtResource("6_4a234")
 
 [node name="Button6" type="Button" parent="."]
-offset_left = 536.0
-offset_top = 216.0
+offset_left = 534.0
+offset_top = 227.0
 offset_right = 621.0
-offset_bottom = 247.0
+offset_bottom = 258.0
 size_flags_stretch_ratio = 0.0
 theme_override_colors/font_disabled_color = Color(1, 0.994191, 0.993187, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -193,32 +199,32 @@ text = "6"
 script = ExtResource("7_i2222")
 
 [node name="FundoFloresta" type="Sprite2D" parent="."]
-position = Vector2(60, 164)
+position = Vector2(65, 179)
 scale = Vector2(0.119565, 0.23913)
 texture = ExtResource("8_bd45u")
 
 [node name="FundoFlorestaGreen" type="Sprite2D" parent="."]
-position = Vector2(164, 164)
+position = Vector2(161, 179)
 scale = Vector2(0.119565, 0.23913)
 texture = ExtResource("9_s27hf")
 
 [node name="FundoFlorestaPink" type="Sprite2D" parent="."]
-position = Vector2(268, 164)
+position = Vector2(270, 179)
 scale = Vector2(0.119565, 0.23913)
 texture = ExtResource("10_bfvn6")
 
 [node name="FundoPretoEBranco" type="Sprite2D" parent="."]
-position = Vector2(372.5, 164)
+position = Vector2(369, 179)
 scale = Vector2(0.118852, 0.242424)
 texture = ExtResource("11_uyb6l")
 
 [node name="FundoAmarelo" type="Sprite2D" parent="."]
-position = Vector2(476.125, 164.625)
+position = Vector2(481, 179)
 scale = Vector2(0.119388, 0.238981)
 texture = ExtResource("12_4l5aq")
 
 [node name="FundoHell" type="Sprite2D" parent="."]
-position = Vector2(580.625, 164)
+position = Vector2(577, 179)
 scale = Vector2(0.118673, 0.241096)
 texture = ExtResource("13_wqmee")
 
@@ -229,5 +235,65 @@ offset_right = 87.0
 offset_bottom = 310.0
 text = "VOLTAR"
 script = ExtResource("14_y6t1w")
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+offset_left = 225.0
+offset_top = 75.0
+offset_right = 412.0
+offset_bottom = 115.0
+color = Color(0, 0, 0, 0.85098)
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+offset_left = 437.0
+offset_top = 75.0
+offset_right = 622.0
+offset_bottom = 115.0
+color = Color(0, 0, 0, 0.764706)
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+offset_left = 20.0
+offset_top = 75.0
+offset_right = 209.0
+offset_bottom = 117.0
+color = Color(0, 0, 0, 0.780392)
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 21.0
+offset_top = 19.0
+offset_right = 621.0
+offset_bottom = 67.0
+color = Color(0, 0, 0, 0.729412)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 215.0
+offset_top = 27.0
+offset_right = 435.0
+offset_bottom = 58.0
+text = "Níveis de dificuldade"
+label_settings = SubResource("LabelSettings_fbclm")
+
+[node name="Label3" type="Label" parent="Label"]
+offset_left = 73.0
+offset_top = 53.0
+offset_right = 139.0
+offset_bottom = 84.0
+text = "Médio"
+label_settings = SubResource("LabelSettings_fbclm")
+
+[node name="Label" type="Label" parent="Label"]
+offset_left = -128.0
+offset_top = 52.0
+offset_right = -72.0
+offset_bottom = 83.0
+text = "Fácil"
+label_settings = SubResource("LabelSettings_fbclm")
+
+[node name="Label2" type="Label" parent="Label"]
+offset_left = 283.0
+offset_top = 52.0
+offset_right = 349.0
+offset_bottom = 83.0
+text = "Difícil"
+label_settings = SubResource("LabelSettings_fbclm")
 
 [connection signal="pressed" from="voltar_button" to="voltar_button" method="_on_pressed"]
