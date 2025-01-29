@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfph4x3xusrct"]
+
+[ext_resource type="Texture2D" uid="uid://ddjf27y2h0c1p" path="res://assets/personagens/fundo/fundo fim.png" id="1_itmuw"]
+[ext_resource type="Script" path="res://personagens/skin/voltar.gd" id="2_v70ob"]
+
+[node name="fim" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -272.0
+offset_top = -144.0
+offset_right = 920.0
+offset_bottom = 488.0
+color = Color(0.00784314, 0, 0.0509804, 1)
+
+[node name="FundoFim" type="Sprite2D" parent="."]
+position = Vector2(312, 160)
+scale = Vector2(0.51358, 0.466691)
+texture = ExtResource("1_itmuw")
+
+[node name="voltar_button" type="Button" parent="."]
+offset_left = 560.0
+offset_top = 272.0
+offset_right = 630.0
+offset_bottom = 303.0
+text = "VOLTAR"
+script = ExtResource("2_v70ob")
+
+[connection signal="pressed" from="voltar_button" to="voltar_button" method="_on_pressed"]

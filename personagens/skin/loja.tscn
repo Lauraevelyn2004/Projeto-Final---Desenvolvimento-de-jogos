@@ -1,0 +1,103 @@
+[gd_scene load_steps=10 format=3 uid="uid://beegpxo2v266w"]
+
+[ext_resource type="Texture2D" uid="uid://cslakt0jsbpmc" path="res://assets/assets/designer/Designer (20).jpeg" id="1_a3mh2"]
+[ext_resource type="Script" path="res://personagens/skin/loja.gd" id="1_y2f4a"]
+[ext_resource type="Texture2D" uid="uid://dwgl17w83wb0u" path="res://assets/assets/designer/Captura de tela 2024-12-16 104105.png" id="2_cydca"]
+[ext_resource type="Texture2D" uid="uid://ei2f5iqc2xu5" path="res://assets/assets/designer/Captura de tela 2024-12-16 103840.png" id="3_ekwu2"]
+[ext_resource type="Texture2D" uid="uid://x7cuw5weadct" path="res://assets/personagens/chop/Captura de tela 2024-12-20 112932.png" id="4_348iu"]
+[ext_resource type="Script" path="res://personagens/skin/equipar_1.gd" id="6_4w4lu"]
+[ext_resource type="Script" path="res://personagens/skin/equipar_2.gd" id="7_0g5y0"]
+[ext_resource type="Script" path="res://personagens/skin/play.gd" id="8_kfwir"]
+[ext_resource type="Script" path="res://personagens/skin/voltar.gd" id="9_s4whw"]
+
+[node name="loja" type="Node2D"]
+script = ExtResource("1_y2f4a")
+
+[node name="cenário" type="Node2D" parent="."]
+
+[node name="Designer(20)" type="Sprite2D" parent="cenário"]
+position = Vector2(324, 160)
+scale = Vector2(0.361607, 0.3125)
+texture = ExtResource("1_a3mh2")
+
+[node name="ColorRect2" type="ColorRect" parent="cenário"]
+offset_right = 265.0
+offset_bottom = 272.0
+color = Color(0.101961, 0.00784314, 0.0705882, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="cenário"]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 256.0
+offset_bottom = 264.0
+color = Color(0.145098, 0.168627, 0.203922, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="TextEdit" type="TextEdit" parent="cenário"]
+offset_left = 64.0
+offset_top = 14.0
+offset_right = 192.0
+offset_bottom = 49.0
+text = "           LOJA"
+metadata/_edit_use_anchors_ = true
+
+[node name="CapturaDeTela2024-12-20112932" type="Sprite2D" parent="cenário"]
+position = Vector2(48, 96)
+scale = Vector2(0.794408, 0.704545)
+texture = ExtResource("4_348iu")
+
+[node name="CapturaDeTela2024-12-16104105" type="Sprite2D" parent="cenário"]
+position = Vector2(127, 95)
+scale = Vector2(0.753968, 0.718407)
+texture = ExtResource("2_cydca")
+
+[node name="CapturaDeTela2024-12-16103840" type="Sprite2D" parent="cenário"]
+position = Vector2(211, 96)
+scale = Vector2(0.746154, 0.680107)
+texture = ExtResource("3_ekwu2")
+
+[node name="botões de equipar" type="Node2D" parent="."]
+
+[node name="equipar1" type="Button" parent="botões de equipar"]
+offset_left = 32.0
+offset_top = 128.0
+offset_right = 100.0
+offset_bottom = 159.0
+scale = Vector2(0.5, 0.5)
+text = "equipar"
+script = ExtResource("6_4w4lu")
+metadata/_edit_use_anchors_ = true
+
+[node name="equipar2" type="Button" parent="botões de equipar"]
+offset_left = 112.0
+offset_top = 128.0
+offset_right = 180.0
+offset_bottom = 159.0
+scale = Vector2(0.5, 0.5)
+text = "equipar"
+script = ExtResource("7_0g5y0")
+metadata/_edit_use_anchors_ = true
+
+[node name="voltar_button" type="Button" parent="."]
+offset_left = 17.0
+offset_top = 276.0
+offset_right = 87.0
+offset_bottom = 310.0
+text = "VOLTAR"
+script = ExtResource("9_s4whw")
+metadata/_edit_use_anchors_ = true
+
+[node name="play_button" type="Button" parent="."]
+offset_left = 541.0
+offset_top = 269.0
+offset_right = 631.0
+offset_bottom = 304.0
+text = "PLAY"
+script = ExtResource("8_kfwir")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="botões de equipar/equipar1" to="botões de equipar/equipar1" method="_on_pressed"]
+[connection signal="pressed" from="botões de equipar/equipar2" to="." method="_on_equipar_2_pressed"]
+[connection signal="pressed" from="voltar_button" to="voltar_button" method="_on_pressed"]
+[connection signal="pressed" from="play_button" to="play_button" method="_on_pressed"]

@@ -1,0 +1,41 @@
+res://personagens/menu.tscn
+res://personagens/skin/loja.tscn
+res://personagens/escolha_fases.tscn
+res://levels/fase_01.tscn
+res://levels/fase_02.tscn
+res://levels/fase_03.tscn
+res://levels/fase_04.tscn
+res://levels/fase_05.tscn
+res://levels/fase_06.tscn
+res://personagens/hud.tscn
+res://personagens/inimigo.tscn
+res://personagens/jogador.tscn
+res://personagens/skin/skin_01.tscn
+res://personagens/moeda.tscn
+res://personagens/portal.tscn
+res://scripts/escolha de fase/button_5.gd
+res://scripts/escolha de fase/button_6.gd
+res://scripts/escolha de fase/button_4.gd
+res://scripts/fases/fase_01.gd
+res://personagens/skin/voltar.gd
+res://fim.tscn
+res://scripts/outros/portal.gd
+res://levels/fim.tscn
+res://cenarios/hud_2.tscn
+res://cenarios/hud_3.tscn
+res://scripts/personagens/jogador.gd
+res://levels/popup.gd
+res://scripts/personagens/portal.gd
+res://levels/moedas_insuficientes.gd
+res://cenarios/moedasinsuficientes.tscn
+res://scripts/fases/fase_02.gd
+res://scripts/fases/fase_03.gd
+res://scripts/fases/fase_04.gd
+res://scripts/fases/fase_05.gd
+res://scripts/fases/fase_06.gd
+res://scripts/outros/Global.gd
+res://cenarios/recomeçar.gd
+res://scripts/escolha de fase/button_1.gd
+res://scripts/escolha de fase/button_2.gd
+res://scripts/escolha de fase/button_3.gd
+res://scripts/menu/play.gd
